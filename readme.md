@@ -51,6 +51,17 @@ $ openssl x509 -in new.cert.csr -out new.cert.cert -req -signkey new.cert.key -d
 Caso alguém queira gerar um novo certificado a partir do que está na pasta
 a senha é `nodebr`.
 
+### Módulos utilizados
+
+Os módulos utilizados nestes exemplos foram os seguintes:
+
+* http-proxy (https://www.npmjs.org/package/http-proxy)
+* express (http://expressjs.com)
+* fs (http://nodejs.org/api/fs.html)
+* http (http://nodejs.org/api/http.html)
+* https (http://nodejs.org/api/https.html)
+
 [0]: http://meetup.com/Node-js-Sao-Paulo
 [1]: http://groups.google.com/group/nodebr
 [2]: http://webchat.freenode.net/?channels=#nodebr
+
